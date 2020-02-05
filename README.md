@@ -1,8 +1,8 @@
-# Coderdojo_minecraft_server
-A repository for all config and explenation of how to set up a server. This will be explained for new or experienced coaches.
+# Coderdojo: Minecraft
+A repository for all config and explenation of how to set up a server. This will be explained for new or experienced coaches. The use of minecraft can invigorate the youth a bit, since scratch might get a bit dull. There are 2 options, program in python, or build electronical components with redstone.
 
 ## Installing the server.
-Install the latest buildtools from SpigotMC and run:
+Install the latest buildtools from [SpigotMC](https://www.spigotmc.org/) and run:
 ```
 java -jar BuildTools.jar
 ```
@@ -56,5 +56,9 @@ It only has a config file. Here you can change allowed hosts, and see what port 
 ### [MCPI](https://github.com/zhuowei/RaspberryJuice/tree/master/src/main/resources/mcpi/api/python/modded/mcpi)
 To be able to connect to raspberryjuice, you need to place this directory near your python scripts. So download this and place it in the directory of the scripts.
 
-
+## Usefull other plugins
+### Multiverse core
+This plugin makes it easy to have multiple worlds. Where you can then later set permissions on each world. (Through other plugin).
+### [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)
+EssentialsX has multiple parts, and can be used for chat, but more importantly setting warps. These warps can be used to warp between worlds. However, other plugins could help too.
 
