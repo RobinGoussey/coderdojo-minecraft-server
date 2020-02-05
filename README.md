@@ -1,4 +1,4 @@
-# Coderdojo_minecraft_server
+# Coderdojo: Minecraft
 A repository for all config and explenation of how to set up a server. This will be explained for new or experienced coaches. The use of minecraft can invigorate the youth a bit, since scratch might get a bit dull. There are 2 options, program in python, or build electronical components with redstone.
 
 ## Installing the server.
