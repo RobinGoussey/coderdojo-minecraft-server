@@ -45,3 +45,16 @@ RemainAfterExit=true
 WantedBy=default.target
 ```
 The scripts run_detached and stop_detached, can be found [here](Server/scripts). These scripts will detach the output of the server to a separate screen. This way you can later enter the screen and type commands if necessary. This requires GNU screen installed.
+
+------------------------------------------------------------
+## Programming in python with minecraft.
+To program in python, you need a plugin, and the mcpi directory.
+### [Raspberryjuice](https://github.com/zhuowei/RaspberryJuice)
+This is the plugin you need to place into the generated plugins directory. Download the latest from [here](https://github.com/zhuowei/RaspberryJuice/tree/master/jars). And place it into the plugins directory. Afterwards, restart your server.
+It only has a config file. Here you can change allowed hosts, and see what port you run on. 
+
+### [MCPI](https://github.com/zhuowei/RaspberryJuice/tree/master/src/main/resources/mcpi/api/python/modded/mcpi)
+To be able to connect to raspberryjuice, you need to place this directory near your python scripts. So download this and place it in the directory of the scripts.
+
+
+
