@@ -73,4 +73,6 @@ To be able to connect to raspberryjuice, you need to place this directory near y
 This plugin makes it easy to have multiple worlds. Where you can then later set permissions on each world. (Through other plugin).
 ### [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)
 EssentialsX has multiple parts, and can be used for chat, but more importantly setting warps. These warps can be used to warp between worlds. However, other plugins could help too.
+### [Luckperms](https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/)
+This plugin can be used to set up permissions. This way people who are programming cannot build etc, and people who are building cannot place tnt etc. A config with groups can be found on this github. Do be carefull, setting the permission bukkit.broadcast to false for default ( or parents it inherits from), will disable postToChat to appear in the game.
 
