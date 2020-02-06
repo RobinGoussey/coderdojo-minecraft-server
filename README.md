@@ -1,5 +1,11 @@
 # Coderdojo: Minecraft
 A repository for all config and explenation of how to set up a server. This will be explained for new or experienced coaches. The use of minecraft can invigorate the youth a bit, since scratch might get a bit dull. There are 2 options, program in python, or build electronical components with redstone.
+## What will you need
+### Server
+You will need to have a pc running as the server. See [here](https://drive.google.com/drive/folders/1RIDG7XiscqaGfRjHOvu0w3nBy0uB_2wP?usp=sharing) for how to install and set up the server.
+
+### Minecraft on a computer.
+You will need whoever participates to have minecraft. If you want to program in python, you will also have to install this on their/your computer, and preferably a good editor. 
 
 ## Installing the server.
 Install the latest buildtools from [SpigotMC](https://www.spigotmc.org/) and run:
@@ -57,6 +63,10 @@ RemainAfterExit=true
 WantedBy=default.target
 ```
 The scripts run_detached and stop_detached, can be found [here](Server/scripts). These scripts will detach the output of the server to a separate screen. This way you can later enter the screen and type commands if necessary. This requires GNU screen installed.
+### Running remotely
+You can either start the server on your own computer, or you can set up a remote host. You can either set up a server at home, or use a router and own network on location to make sure the clients are able to connect to the server. Some public networks might prevent you from hosting on their network.
+
+To host remote, just make sure you port forward, and know the ip_address (not the 192.168.x.x), but the one from the outside.
 
 ------------------------------------------------------------
 ## Programming in python with minecraft.
@@ -74,5 +84,5 @@ This plugin makes it easy to have multiple worlds. Where you can then later set 
 ### [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)
 EssentialsX has multiple parts, and can be used for chat, but more importantly setting warps. These warps can be used to warp between worlds. However, other plugins could help too.
 ### [Luckperms](https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/)
-This plugin can be used to set up permissions. This way people who are programming cannot build etc, and people who are building cannot place tnt etc. A config with groups can be found on this github. Do be carefull, setting the permission bukkit.broadcast to false for default ( or parents it inherits from), will disable postToChat to appear in the game.
+This plugin can be used to set up permissions. This way people who are programming cannot build etc, and people who are building cannot place tnt etc. A config with groups can be found on this github. Do be carefull, setting the permission bukkit.broadcast to false for default ( or parents it inherits from), will disable postToChat to appear in the game. Also be weary that the config right now is set up for different worlds.
 
