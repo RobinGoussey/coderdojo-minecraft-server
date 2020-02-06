@@ -1,0 +1,5 @@
+name: programmer
+permissions:
+- weight.199
+parents:
+- visitor

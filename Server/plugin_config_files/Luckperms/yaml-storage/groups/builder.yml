@@ -1,0 +1,27 @@
+name: builder
+permissions:
+- essentials.build.*:
+    value: false
+    world: world_castle
+- essentials.build:
+    value: true
+    world: world_builder
+- essentials.build.break.7:
+    value: false
+    world: world_builder
+- essentials.build.place.7:
+    value: false
+    world: world_builder
+- essentials.build.pickup.407:
+    value: false
+- essentials.build.pickup.46:
+    value: false
+- essentials.build.pickup.7:
+    value: false
+- essentials.build.place.407:
+    value: false
+- essentials.build.place.46:
+    value: false
+- weight.200
+parents:
+- programmer
