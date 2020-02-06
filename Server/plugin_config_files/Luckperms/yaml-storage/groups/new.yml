@@ -1,0 +1,46 @@
+name: new
+permissions:
+- bukkit.broadcast.*:
+    value: true
+- essentials.back.*
+- essentials.build.break.*:
+    value: false
+- essentials.build.craft.*:
+    value: false
+- essentials.build.interact.*
+- essentials.build.pickup.*:
+    value: false
+- essentials.build.place.*:
+    value: false
+- essentials.gamemode.*:
+    value: false
+- essentials.warp.*
+- essentials.warps.*
+- luckperms.*:
+    value: false
+- minecraft.command.*:
+    value: false
+- multiverse.*:
+    value: false
+- multiverse.teleport.other.*:
+    value: false
+- mv.*:
+    value: false
+- vault.*:
+    value: false
+- worldedit.*:
+    value: false
+- bukkit.command.help
+- bukkit.command.plugins:
+    value: false
+- bukkit.command.reload:
+    value: false
+- bukkit.command.version
+- displayname.new
+- essentials.warp
+- essentials.warp.otherplayers:
+    value: false
+- minecraft.command.help
+- multiverse.teleport.self
+- multiverse.teleport.self.w
+- weight.50

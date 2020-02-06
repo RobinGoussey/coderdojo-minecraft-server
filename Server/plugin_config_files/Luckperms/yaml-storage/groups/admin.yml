@@ -1,0 +1,14 @@
+name: admin
+permissions:
+- essentials.*
+- luckperms.*
+- multiverse.*
+- multiverse.access.*
+- multiverse.core.*
+- multiverse.help.*
+- vault.*
+- worldedit.*
+- minecraft.command.stop
+- weight.1000
+parents:
+- coach

@@ -1,0 +1,14 @@
+name: coach
+permissions:
+- essentials.*
+- luckperms.*
+- minecraft.command.*
+- multiverse.*
+- mv.*
+- essentials.build.break.7
+- essentials.build.place.7
+- minecraft.command.stop:
+    value: false
+- weight.500
+parents:
+- builder

@@ -1,0 +1,5 @@
+name: default
+permissions:
+- weight.1
+parents:
+- new
