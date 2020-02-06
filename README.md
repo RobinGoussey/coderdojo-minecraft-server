@@ -6,6 +6,18 @@ Install the latest buildtools from [SpigotMC](https://www.spigotmc.org/) and run
 ```
 java -jar BuildTools.jar
 ```
+In windows you can also use this (.bat) script to autmatically download:
+```
+@echo off
+IF NOT EXIST BuildTools (
+    mkdir BuildTools
+)
+cd BuildTools
+curl -z BuildTools.jar -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+set /p Input=Enter the version: || set Input=latest
+java -jar BuildTools.jar --rev %Input%
+pause
+```
 This will generate a directory structure. You should see directories like world, plugins, and a jar file SpigotMC-X.X.X.jar. To run the server you can use the command:
 ```
 java -jar spigot-1.14.4.jar
